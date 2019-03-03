@@ -1,7 +1,7 @@
 
 # `node-http-cache-proxy` [![Build Status](https://travis-ci.com/grimen/node-http-cache-proxy.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/node-http-cache-proxy)
 
-*TODO*
+*A minimalistic HTTP cache reverse proxy middleware/server - for Node.js.*
 
 
 ## Introduction
