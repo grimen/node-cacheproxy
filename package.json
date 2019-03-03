@@ -4,7 +4,6 @@
     "description": "A minimalistic HTTP cache reverse proxy middleware/server - for Node.js.",
     "keywords": [
         "http",
-        "https",
         "cache",
         "proxy",
         "reverse",
