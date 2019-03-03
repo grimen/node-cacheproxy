@@ -1,0 +1,55 @@
+{
+    "name": "@grimen/http-cache-proxy",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [
+        "http",
+        "https",
+        "cache",
+        "proxy",
+        "reverse",
+        "reverse-proxy",
+        "cache-proxy"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/node-http-cache-proxy.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/node-http-cache-proxy/issues"
+    },
+    "homepage": "https://github.com/grimen/node-http-cache-proxy#readme",
+    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx jest",
+        "test-ci": "npx jest --runInBand --forceExit --detectOpenHandles",
+        "test-dev": "npx jest --watch",
+        "validate": "npx eslint \"**/*.js\"",
+        "release": "./bin/release"
+    },
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "connect-timeout": "^1.9.0",
+        "express": "^4.16.4",
+        "fs-extra": "^7.0.1",
+        "http-proxy": "^1.17.0",
+        "md5": "^2.2.1",
+        "morgan": "^1.9.1",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.7",
+        "response-time": "^2.3.2"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.15.0",
+        "jest": "^24.1.0"
+    },
+    "jest": {
+        "bail": true,
+        "verbose": true,
+        "testRegex": "test_.*\\.js",
+        "testEnvironment": "node"
+    }
+}
